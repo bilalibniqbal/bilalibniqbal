@@ -28,17 +28,59 @@ const Work1 = (props: Props) => {
         show: { opacity: 1, transition: { type: 'tween' } },
     };
 
-
+    const lineVariant = {
+        hidden: { height: 0 },
+        show: { height: '100%' }
+    }
     return (
         <HoverCard backgroundColor='#7ee787' direction='' left='0'>
             <div className='md:flex flex-col md:space-y-20 flex-1 p-8 sm:p-10 lg:py-16 lg:pl-16 lg:pr-32 justify-between '>
-                {/* <p className=''>
+
+                {/* ********************-----------------------------------------------**************************************************** */}
+
+                <div className=''>
+                    <div className='flex relative md:pl-10'>
+                        <img alt="" aria-hidden="true" width="2712" height="2712" className="absolute top-0 right-0 h-auto pointer-events-none" loading="lazy" decoding="async" src="https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp" />
+                        <div className='flex items-center flex-row relative'>
+                            <motion.div variants={lineVariant} initial='hidden' whileInView='show' viewport={{ once: false }} transition={{ duration: 0.3 }} className='w-[3px] h-full increase origin-top'></motion.div>
+                            <img
+                                alt=""
+                                aria-hidden="true"
+                                width="81"
+                                height="485"
+                                style={{
+                                    left: 'calc(50% - 2px)',
+                                    height: 'auto',
+                                    maxWidth: '9vw',
+                                    transitionDelay: '100ms',
+                                }}
+                                className="hidden md:block absolute bottom-4 left-0"
+                                loading="lazy"
+                                decoding="async"
+                                src="https://github.githubassets.com/images/modules/site/home-campaign/git-branch-productivity.svg"
+                            />
+                        </div>
+                        <div className='lg:pl-24 md:pl-16 pl-6'>
+                            <div className='flex max-md:flex-col-reverse my-8 items-center lg:gap-x-5 sm:my-12 md:my-16 pb-6 md:pb-20 md:flex-row'>
+                            </div>
+                            <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} transition={{ type: "tween", delay: 0.1 }} className='mb-10 md:mb-32 pb-4 '>
+                                <div className='py-4 text-left'>
+                                    <div className='z-[1] inline-block rounded-full px-2 border-2 border-[#7ee787] relative font-medium bg-gradient-to-r from-[#7ee787] to-[#aff5b4] bg-clip-text text-transparent'>
+                                        <span className='font-semibold text-[12px]'>Pvt. Ltd.</span>
+                                    </div>
+                                    <h3 className="text-[#7ee787] mb-2 mt-3 lg:text-6xl md:text-5xl text-3xl font-medium">Infinity Innovations Inc.</h3>
+
+                                    {/* ------------------------------------------------------------------ */}
+                                    {/* <p className=''>
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.3 }} viewport={{ once: false }} className="text-[20px] js-build-in-item build-in-slideX-left build-in-animate" style={{ transitionDelay: '200ms' }}><span className="text-[#7ee787] text-[28px] max-lg:leading-10 lg:text-5xl">DataPoint</span></motion.div>
                 </p> */}
-                 <ul className='text-xl md:text-2xl mb-6 font-medium text-[#7d8590]'> {/* list-disc '> */}
+                                    <ul className='text-xl md:text-2xl mb-6 font-medium text-[#7d8590]'> {/* list-disc '> */}
 
-                    <li><p className=" text-xl md:text-2xl mb-6 font-medium text-[#7d8590]"><span className='text-white font-medium'>Machine Learning Engineer</span> <br /> Nov 2017 - Dec 2019 · 2 yrs 2 mos </p></li>
-                </ul>
+                                        <li><p className=" text-xl md:text-2xl mb-6 font-medium text-[#7d8590]"><span className='text-white font-medium'>Machine Learning Engineer</span> <br /> Nov 2017 - Dec 2019 · 2 yrs 2 mos </p></li>
+                                    </ul>
+                                    {/* ------------------------------------------------------------------ */}
+                                </div>
+                            </motion.div>
                 <div>
                     <a onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} href="" className=' md:text-xl text-white font-semibold inline-block'>
                         Details
@@ -46,6 +88,15 @@ const Work1 = (props: Props) => {
                         <div className={` ${hovered ? "w-11/12 scale-100" : "w-0 scale-0"} origin-left  transition ease-in duration-300 h-[2.5px] bg-white rounded-full`}></div>
                     </a>
                 </div>
+                        </div>
+                    </div>
+                    {/* <div className=''><Work2 /></div> */}
+                </div>
+
+
+                {/* ********************-----------------------------------------------**************************************************** */}
+
+
             </div>
         </HoverCard>
     )

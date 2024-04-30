@@ -32,11 +32,11 @@ const Experience = (props: Props) => {
                 </div>
             </div>
             {/* <CodeEditor/> */}
-            <Company2/>
+            {/* <Company2/> */}
             <div className='relative z-[1] '>
                 <Work2 />
             </div>
-            <Company1/>
+            {/* <Company1/> */}
             <div className='relative z-[1] '>
                 <Work1 />
             </div>
