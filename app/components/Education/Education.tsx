@@ -1,7 +1,7 @@
 'use client'
 import React, {useState} from 'react'
-import CodeSpace from '../Experience/CodeSpace'
-import Discount from './Discount'
+import CodeSpace from '../Experience/Company2'
+import Uni from './Uni'
 import HoverCard from '../Experience/HoverCard'
 import MSCS from './MSCS'
 import {motion} from "framer-motion"
@@ -44,7 +44,7 @@ const Education = (props: Props) => {
                 <h2 className="text-[20px] md:text-2xl mb-7 text-[#ffa28b] font-medium js-build-in-item build-in-slideX-left build-in-animate  text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl" style={{transitionDelay: '200ms'}}>Education</h2>  
             </motion.div>
         </div>
-        <Discount/>
+        <Uni/>
         <MSCS/>
 
         <div className='flex justify-between items-center'>

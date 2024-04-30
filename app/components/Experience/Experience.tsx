@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react'
 // import CodeEditor from './CodeEditor'
-import CodeSpace from './CodeSpace'
+import Company1 from './Company1'
+import Company2 from './Company2'
 import HoverCard from './HoverCard'
 import Work2 from './Work2'
 import Work1 from './Work1'
@@ -30,14 +31,15 @@ const Experience = (props: Props) => {
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.3 }} viewport={{ once: false }} className="text-[20px] md:text-2xl mb-7 font-medium text-white js-build-in-item build-in-slideX-left build-in-animate" style={{ transitionDelay: '200ms' }}><span className="text-[#7ee787] text-[28px] md:text-[40px] max-md:leading-8 max-lg:leading-10 lg:text-5xl">Experience</span></motion.div>
                 </div>
             </div>
-        {/* <CodeEditor/> */}
-        <CodeSpace/>
-        <div className='relative z-[1] '>
-            <Work2/>
-        </div>
-        <div className='relative z-[1] '>
-            <Work1/>
-        </div>
+            {/* <CodeEditor/> */}
+            <Company2/>
+            <div className='relative z-[1] '>
+                <Work2 />
+            </div>
+            <Company1/>
+            <div className='relative z-[1] '>
+                <Work1 />
+            </div>
             <div className='flex justify-between items-center'>
                 <div className='flex justify-between md:space-x-10 max-md:flex-col'>
                 </div>
