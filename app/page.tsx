@@ -1,6 +1,8 @@
 import Image from "next/image";
 // import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero-section/Hero';
+import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
 
 export default function Home() {
     return (
@@ -24,6 +26,12 @@ export default function Home() {
                     </div>
                     <div className="hero-section px-3 ">
                         <Hero />
+                    </div>
+                    <div id='experience' className='home-campaign-experience px-4 pt-8 overflow-hidden'>
+                        <Experience />
+                    </div>
+                    <div id='education' className='home-campaign-productivity px-4 pt-8  overflow-hidden'>
+                        <Education/>
                     </div>
                 </div>
             </div>
