@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from './components/Hero-section/Hero';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
+import Publications from './components/Publications/Publications';
 
 export default function Home() {
     return (
@@ -32,6 +33,9 @@ export default function Home() {
                     </div>
                     <div id='education' className='home-campaign-productivity px-4 pt-8  overflow-hidden'>
                         <Education/>
+                    </div>
+                    <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
+                        <Publications/>
                     </div>
                 </div>
             </div>
