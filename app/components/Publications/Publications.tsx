@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 type Props = {}
 
-const Security = (props: Props) => {
+const Publications = (props: Props) => {
     const [hovered, setHovered] = useState<boolean>(false)
     const [hovered1, setHovered1] = useState<boolean>(false)
     const [hovered2, setHovered2] = useState<boolean>(false)
@@ -47,4 +47,4 @@ const Security = (props: Props) => {
     )
 }
 
-export default Security
+export default Publications

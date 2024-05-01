@@ -4,7 +4,11 @@ import Hero from './components/Hero-section/Hero';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Publications from './components/Publications/Publications';
+import Projects from './components/Projects/Projects'
 import Footer from './components/Footer/Footer';
+import Skills from './components/Skills/Skills';
+import Volunteering from './components/Volunteering/Volunteering';
+import Languages from './components/Languages/Languages';
 
 export default function Home() {
     return (
@@ -37,6 +41,18 @@ export default function Home() {
                     </div>
                     <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
                         <Publications/>
+                    </div>
+                    <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
+                        <Projects/>
+                    </div>
+                    <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
+                        <Skills/>
+                    </div>
+                    <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
+                        <Volunteering/>
+                    </div>
+                    <div id='security' className='home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden'>
+                        <Languages/>
                     </div>
                 </div>
             </div>

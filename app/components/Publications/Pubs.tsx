@@ -7,7 +7,7 @@ type Props = {}
 const Pubs = (props: Props) => {
     const [hovered, setHovered] = useState<boolean>(false)
     return (
-        <HoverCard backgroundColor='#7ee787' direction='' left='0'>
+        <HoverCard backgroundColor='#939aff' direction='' left='0'>
             <div className='md:flex flex-col md:space-y-20 flex-1 p-8 sm:p-10 lg:py-16 lg:pl-16 lg:pr-32 justify-between '>
 
             <div className='flex relative md:pl-10'>
