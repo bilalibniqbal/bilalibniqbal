@@ -4,6 +4,7 @@ import Hero from './components/Hero-section/Hero';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Publications from './components/Publications/Publications';
+import Footer from './components/Footer/Footer';
 
 export default function Home() {
     return (
@@ -39,6 +40,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
