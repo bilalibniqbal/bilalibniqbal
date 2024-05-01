@@ -24,13 +24,14 @@ export default function Home() {
                 <div className="overflow-hidden">
                     <div className="relative">
                         <StarBackground/>
-                        <img
+                        {/* <img
                             className="absolute top-0 transition ease-in duration-200 max-xl:right-[-1050px] xl:right-[-970px] -z-30 image"
                             width="4377"
-                            src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp"
+                            // src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp"
                             // src="/images/stars1.png"
+                            src="/images/1.webp"
                             alt=""
-                        />
+                        /> */}
                     </div>
                     <div className="hero-section px-3 ">
                         <Hero />
