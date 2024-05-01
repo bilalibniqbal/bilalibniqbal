@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Skills from './components/Skills/Skills';
 import Volunteering from './components/Volunteering/Volunteering';
 import Languages from './components/Languages/Languages';
+import StarBackground from './StarBackground';
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ export default function Home() {
             <div>
                 <div className="overflow-hidden">
                     <div className="relative">
+                        <StarBackground/>
                         <img
                             className="absolute top-0 transition ease-in duration-200 max-xl:right-[-1050px] xl:right-[-970px] -z-30 image"
                             width="4377"
@@ -57,6 +59,7 @@ export default function Home() {
                 </div>
             </div>
             <Footer />
+            
         </div>
     );
 }

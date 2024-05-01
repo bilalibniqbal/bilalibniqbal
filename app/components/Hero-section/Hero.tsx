@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
                 </div>
                 <div className=' absolute pt-32 mt-28 max-md:px-4 ml-4 md:ml-12'>
                     <div className='relative md:top-20 mb-[24px]'>
-                        <a onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} href="" className=' border-[1px] border-neutral-600 copilot rounded-full inline-block'>
+                        <a onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} href="https://bilalibniqbal.github.io/bilal-labs/" className=' border-[1px] border-neutral-600 copilot rounded-full inline-block'>
                             <div className='flex items-center p-3 px-5'>
                                 <img className=" d-block w-auto flex-grow-0 flex-shrink-0 mr-6 max-md:mr-3 scale-110" width="44" height="44" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-copilot-x.svg" />
                                 <div className='md:pr-5 pr-3 md:mr-2 md:pl-2'>
